@@ -5,7 +5,8 @@ let five = 5;
 let sixty = 60;
 let ninety = 90;
 const multiplesThree = someNumbers.some((number) => number / three !== 0);
-console.log(multiplesThree);
-// constnumberiplesnumber/three == IntegerFive = someNumbers.some((someNumbers) => );
-// const multiplesSixty = someNumbers.some((someNumbers) =>s;
-// const multiplesNinety = someNumbers.some((someNumbers) => )
+const multiplesFive = someNumbers.some((number) => number / five !== 0);
+const multiplesSixty = someNumbers.some((number) => number / sixty !== 0);
+const multiplesNinety = someNumbers.some((number) => number / ninety !== 0);
+
+console.log(multiplesThree, multiplesFive, multiplesSixty, multiplesNinety);
